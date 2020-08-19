@@ -1,0 +1,66 @@
+/***********************************************
+*   Theme Name: 1ST Contact Form               *
+*   Theme URI: FB/DZWARE .                     *    
+*   Description: A Contact form                *
+*   Version: 1.0                               *
+*   Author: AMEUR AZZI .                       *
+*   Author URI: http://FB/AZZIAMEUR            *
+***********************************************/
+
+/* Start contact Styles */
+body {
+    background-color: #f1f1f1 
+}
+.alert {
+    margin-bottom: 10px
+}
+h1 {
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: -3px;
+    color: #676666
+}
+.contact-form {
+    max-width: 500px;
+    margin: 20px auto
+}
+.contact-form .form-group {
+    margin-bottom: 0;
+    position: relative
+}
+.contact-form input:not([type='submit']) + i  {
+    height: 0;
+    float: left;
+    position: relative;
+    top: -39px;
+    left: 10px;
+    color: #999999
+}
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 15px 
+}
+.contact-form textarea {
+    height: 180px !important
+}
+.contact-form input {
+    padding-left: 32px
+}
+.contact-form .asterix { 
+    height: 0;
+    font-size: 27px;
+    color: #a90808;
+    right: 10px;
+    position: absolute;
+    top: 6px
+}
+.contact-form .icon-send {
+    position: relative;
+    left: -134px;
+    top: -7px;
+    color: #fff
+}
+.contact-form .custom-alert {
+    padding: 5px 10px;
+    display: none
+}
